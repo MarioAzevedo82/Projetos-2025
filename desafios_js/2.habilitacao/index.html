@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habilitação</title>
+</head>
+<body>
+    <h1>Habilitação</h1>
+    <main>
+        <form>
+            <label for="idade">Idade: </label>
+            <input type="number" id="idade">
+            
+            <h3>possui cnh?</h3>
+            <label for="sim">Sim</label>
+            <input type="radio" name="cnh" id="sim">
+
+            <label for="nao">Não</label>
+            <input type="radio" name="cnh" id="nao">
+            
+        </form>
+        <button onclick="enviar()">Enviar</button>
+
+        <div id="resultado"></div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
