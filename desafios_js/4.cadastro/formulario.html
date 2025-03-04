@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <h1>Cadastro de Usuário</h1>
+    <main>
+        <form>
+            <label for="nome">Nome: </label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+            <br>
+            <label for="sobrenome">Sobrenome: </label>
+            <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome">
+            <br>
+            <label for="idade">Idade: </label>
+            <input type="number" name="idade" id="idade" placeholder="Digite sua idade">
+            <br>
+            <label for="profissao">Profissão: </label>
+            <input type="text" name="profissao" id="profissao" placeholder="Digite sua profissão">
+            <br>
+            <label for="email">E-mail: </label>
+            <input type="email" name="email" id="email" placeholder="Digite seu E-mail">
+            <br>
+            <button onclick="enviar()">Enviar</button>
+
+        </form>
+        <div id="resultado"></div>
+    </main>
+</body>
+</html>
