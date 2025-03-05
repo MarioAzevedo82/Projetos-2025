@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
+    <link rel="stylesheet" href="cadastro.css">
 </head>
 <body>
     <h1>Cadastro de Usuário</h1>
     <main>
-        <form>
+        <div>
+            
             <label for="nome">Nome: </label>
             <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
             <br>
@@ -24,10 +26,12 @@
             <label for="email">E-mail: </label>
             <input type="email" name="email" id="email" placeholder="Digite seu E-mail">
             <br>
-            <button onclick="enviar()">Enviar</button>
-
-        </form>
+        </div>
+            
+        
+        <button onclick="enviar()">Enviar</button>
         <div id="resultado"></div>
     </main>
+    <script src="cadastro.js"></script>
 </body>
 </html>
