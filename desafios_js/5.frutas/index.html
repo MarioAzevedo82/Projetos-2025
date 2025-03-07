@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Frutas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Adicionar frutas</h1>
+        <label for="fruta">Digite uma fruta: </label>
+        <input type="text" id="fruta">
+        <button onclick="adicionarFruta()">Adicionar</button>
+        <button onclick="removerUltima()">Remover última</button>
+        <button onclick="removerPrimeira()">Remover primeira</button>
+
+
+        <ul id="listaFrutas"></ul>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
