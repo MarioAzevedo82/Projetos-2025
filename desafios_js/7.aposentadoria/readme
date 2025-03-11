@@ -1,0 +1,12 @@
+🚀 Exercício: Pode se Aposentar?
+Crie uma página onde o usuário insira:
+✅ Sua idade
+✅ Quantos anos já contribuiu com a previdência
+✅ Gênero (Masculino ou Feminino)
+
+A regra de aposentadoria será:
+
+Homens podem se aposentar se tiverem pelo menos 65 anos ou 35 anos de contribuição.
+Mulheres podem se aposentar se tiverem pelo menos 62 anos ou 30 anos de contribuição.
+🔹 Se atender aos critérios, exibir "Você pode se aposentar!". 
+Caso contrário, mostrar "Ainda não pode se aposentar."
