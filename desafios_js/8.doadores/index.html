@@ -15,13 +15,20 @@
             <label>Digite o seu peso:</label>
             <input type="number" id="peso">
 
-            <h3>Menor de 18 anos</h3>
-            <h3>Possui autorização?</h3>
-            <label>SIM</label>
-            <input type="radio" id="sim">
+            <div id="menor">
+                <h3>Menores de 18 anos</h3>
+                <h3>Possui autorização?</h3>
+                <label>SIM</label>
+                <input type="radio" name="menor" id="sim">
+                <label>NÃO</label>
+                <input type="radio" name="menor" id="nao">
+            </div>
+            
         </form>
         <br>
         <button onclick="enviar()">Enviar</button>
+        <div id="resultado"></div>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
