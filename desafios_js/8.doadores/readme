@@ -1,0 +1,9 @@
+📌 Desafio: Elegibilidade para Doação de Sangue
+Crie um sistema que verifique se uma pessoa pode doar sangue com 
+base nos seguintes critérios:
+✅ Ter entre 16 e 69 anos
+✅ Pesar pelo menos 50kg
+✅ Menores de 18 anos precisam de autorização dos responsáveis
+
+Se a pessoa atender a todos os critérios, exiba "Você pode doar sangue!". 
+Caso contrário, exiba "Você não pode doar sangue no momento.".
