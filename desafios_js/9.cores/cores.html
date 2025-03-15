@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cores</title>
+    <style>
+        button {
+            width: 90px;
+            height: 20px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0 10px 10px rgba(0,0,0,0.9);
+        }
+        #red {
+            background: red;
+            color: white;      
+        }
+        #green{
+            background: green;
+            color: white;
+        }
+        #blue{
+            background: blue;
+            color: white;
+        }
+        #yellow {
+            background: yellow;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <h2>Clique no botão para escolher sua cor favorita</h2>
+    <button id="red" onclick="mudarCor('red')">Vermelho</button>
+    <button id="green" onclick="mudarCor('green')">Verde</button>
+    <button id="blue" onclick="mudarCor('blue')">Azul</button>
+    <button id="yellow" onclick="mudarCor('yellow')">Amarelo</button>
+    <button id="white" onclick="mudarCor('white')">Branco</button>
+
+    <script src="cores.js"></script>
+</body>
+</html>
