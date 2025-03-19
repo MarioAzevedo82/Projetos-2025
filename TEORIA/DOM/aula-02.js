@@ -16,3 +16,4 @@ setTimeout(() => {
 setTimeout(() => {
     document.getElementsByClassName("minhaClasse")[2].innerHTML = "<b>V</b>"
 }, 4000);
+
